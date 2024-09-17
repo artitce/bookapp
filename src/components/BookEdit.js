@@ -14,6 +14,7 @@ const BookEdit = ({book,onSubmit}) => {
     <form onSubmit={handleSubmit} className='book-edit'>
       <label>Title</label>
       <label>Title3</label>
+      <label>Title4</label>
       <input className='input' value={title} onChange={handleChange} />
       <button>Save</button>
     </form>
