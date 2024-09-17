@@ -13,6 +13,7 @@ const BookEdit = ({book,onSubmit}) => {
   return (
     <form onSubmit={handleSubmit} className='book-edit'>
       <label>Title</label>
+      <label>Title3</label>
       <input className='input' value={title} onChange={handleChange} />
       <button>Save</button>
     </form>
